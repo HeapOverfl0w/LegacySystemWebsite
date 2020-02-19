@@ -1,0 +1,73 @@
+body
+{
+    font: 10px;
+    font-family: "Times New Roman";
+    font-style: italic;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    width: 100%;
+    }
+    
+  nav a {
+    text-decoration: none;
+    display:block;
+    padding: 15px 25px;
+    text-align: center;
+    background-color: #05ffa1;
+    color:#000000;
+    margin:0;
+    }
+
+    nav p {
+        text-decoration: none;
+        display:block;
+        padding: 15px 25px;
+        text-align: center;
+        background-color: #01cdfe;
+        color:#000000;
+        margin:0;
+        }
+    
+  nav a:hover {
+    background-color: #ff71ce;
+    color:#000000;
+    }
+
+#logo:hover {
+    src: "./images/LegacySystemLogo_mouseover.png";
+}
+
+.logo {
+  text-align: center;
+  display: block;
+}
+
+.pagecontent {
+  min-height:83%;
+}
+
+.socialmedia {
+  height : 50px;
+  width : 100%;
+  position: relative;
+  bottom: 0px;
+}
+
+.content {
+    width: 610px;
+    margin: auto;
+    background: #05ffa1;
+    padding: 5px;
+    min-height:95%;
+    max-height:95%;
+    overflow-y: auto;
+  }
+
+  body {
+    background-image: url(./images/vaporbackground.png);
+    background-size: fill;
+    background-color: #fffb96;
+  }

@@ -1,0 +1,74 @@
+body
+{
+    font: 10px;
+    font-family: "MS Gothic";
+    font-weight: bold;
+    color:#159225;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    width: 100%;
+    }
+    
+  nav a {
+    text-decoration: none;
+    display:block;
+    padding: 15px 25px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color:#159225;
+    margin:0;
+    }
+
+    nav p {
+        text-decoration: none;
+        display:block;
+        padding: 15px 25px;
+        text-align: center;
+        background-color: rgb(7, 39, 23);
+        color:#159225;
+        margin:0;
+        }
+    
+  nav a:hover {
+    background-color: #159225;
+    color:#000000;
+    }
+
+#logo:hover {
+    src: "./images/LegacySystemLogo_mouseover.png";
+}
+
+.logo {
+    text-align: center;
+    display: block;
+}
+
+.socialmedia {
+    height : 50px;
+    width : 100%;
+    position: relative;
+    bottom: 0px;
+}
+
+.pagecontent {
+    min-height:83%;
+}
+
+.content {
+    width: 600px;
+    margin: auto;
+    background: rgb(0, 0, 0);
+    border-style: dashed;
+    border-color: #159225;
+    padding: 5px;
+    min-height:95%;
+    max-height:95%;
+    overflow-y: auto;
+  }
+
+  body {
+      background-color: #000000;
+  }
